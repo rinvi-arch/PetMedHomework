@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="PetMedHomework.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Pet Med System</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="MainForm" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <asp:Panel ID="Panel" runat="server" Height="545px" Width="1125px">
+
+            <!-- Image and text -->
+        <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+         Pet Med System
+         </a>
+        &nbsp;&nbsp;</nav>
+
+        </asp:Panel>
+    </form>
+</body>
+</html>
