@@ -4,25 +4,24 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Windows;
 
 namespace PetMedHomework
 {
-    public partial class PatientPortal : System.Web.UI.Page
+    public partial class VetPortalRefill : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Button5_Click(object sender, EventArgs e)
         {
-           
+            Response.Redirect("VetPortal.aspx");
         }
 
-        protected void Button1_Click1(object sender, EventArgs e)
+        protected void Button5_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("Homepage.aspx");
+            Response.Redirect("VetPortal.aspx");
         }
     }
 }

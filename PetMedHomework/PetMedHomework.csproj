@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,26 +68,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSRportal.aspx" />
     <Content Include="Homepage.aspx" />
-    <Content Include="Login.aspx" />
     <Content Include="PatientPortal.aspx" />
+    <Content Include="VetMedReplacement.aspx" />
     <Content Include="VetPortal.aspx" />
+    <Content Include="VetPortalRefill.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSRportal.aspx.cs">
+      <DependentUpon>CSRportal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSRportal.aspx.designer.cs">
+      <DependentUpon>CSRportal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Homepage.aspx.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Homepage.aspx.designer.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
@@ -103,12 +106,26 @@
       <DependentUpon>PatientPortal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VetMedReplacement.aspx.cs">
+      <DependentUpon>VetMedReplacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VetMedReplacement.aspx.designer.cs">
+      <DependentUpon>VetMedReplacement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VetPortal.aspx.cs">
       <DependentUpon>VetPortal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="VetPortal.aspx.designer.cs">
       <DependentUpon>VetPortal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VetPortalRefill.aspx.cs">
+      <DependentUpon>VetPortalRefill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VetPortalRefill.aspx.designer.cs">
+      <DependentUpon>VetPortalRefill.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
