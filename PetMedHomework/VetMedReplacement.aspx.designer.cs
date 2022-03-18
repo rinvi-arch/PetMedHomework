@@ -11,7 +11,7 @@ namespace PetMedHomework
 {
 
 
-    public partial class PatientPortal
+    public partial class VetMedReplacement
     {
 
         /// <summary>
@@ -24,22 +24,13 @@ namespace PetMedHomework
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// chkMed control.
+        /// Button5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkMed;
-
-        /// <summary>
-        /// chkMedd control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkMedd;
+        protected global::System.Web.UI.WebControls.Button Button5;
 
         /// <summary>
         /// Button1 control.
@@ -51,12 +42,30 @@ namespace PetMedHomework
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// btnRefill control.
+        /// Button3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnRefill;
+        protected global::System.Web.UI.WebControls.Button Button3;
+
+        /// <summary>
+        /// Button2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button2;
+
+        /// <summary>
+        /// Button4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button4;
     }
 }
